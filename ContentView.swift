@@ -10,7 +10,6 @@ import SwiftUI
 struct ContentView: View {
     
     @State private var isShowBottomSheet = false
-    @State private var draggedY: CGFloat = .zero
     
     var body: some View {
      

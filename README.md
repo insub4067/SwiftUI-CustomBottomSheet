@@ -1,10 +1,11 @@
 # SwiftUI-CustomBottomSheet
 
-## 👀 What
-순수 SwiftUI 만 사용해서 Transition, Animation 등을 구현하였습니다.  
+## 👀 What?
+자유롭게 디자인과 UX를 컨트롤할 수 있는 BottomSheet 를 표현하기 위해 직접 구현하게 되었습니다.  
+순수 SwiftUI 만 사용해 Transition, Animation 등을 구현하였습니다.  
 DragGesture 을 사용했습니다.
 
-## Sample Code
+## 💻 Sample Code
 ```
 struct ContentView: View {
     

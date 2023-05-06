@@ -1,8 +1,8 @@
 # SwiftUI-CustomBottomSheet
 
 ## 👀 What
-순수 SwiftUI 만 사용해서 Transition 등을 구현하였습니다.  
-DragGesture 의 사용 예시를 볼수 있습니다.  
+순수 SwiftUI 만 사용해서 Transition, Animation 등을 구현하였습니다.  
+DragGesture 을 사용했습니다.
 
 ## Sample Code
 ```

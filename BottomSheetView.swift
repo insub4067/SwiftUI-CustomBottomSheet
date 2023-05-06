@@ -11,15 +11,13 @@ struct BottomSheetView<Content: View>: View {
     
     let content: Content
     @Binding var isShowBottomSheet: Bool
-    @Binding var draggedY: CGFloat
+    @State private var draggedY: CGFloat = .zero
     
     init(isShowBottomSheet: Binding<Bool>,
-         draggedY: Binding<CGFloat>,
          @ViewBuilder content: () -> Content)
     {
         self.content = content()
         self._isShowBottomSheet = Binding(projectedValue: isShowBottomSheet)
-        self._draggedY = Binding(projectedValue: draggedY)
     }
     
     var body: some View {

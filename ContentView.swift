@@ -14,7 +14,7 @@ struct ContentView: View {
     
     var body: some View {
      
-        BottomSheetView(isShowBottomSheet: $isShowBottomSheet, draggedY: $draggedY) {
+        BottomSheetView(isShowBottomSheet: $isShowBottomSheet) {
             VStack {
                 Text("Tap Me")
                     .onTapGesture {
